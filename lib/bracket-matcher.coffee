@@ -163,7 +163,6 @@ class BracketMatcher
         'string.quoted.double.heredoc.livescript'
         'string.quoted.double.elixir'
         'string.quoted.double.heredoc.elixir'
-        'comment.documentation.heredoc.elixir'
       ]
       @interpolatedStringSelector = SelectorCache.get(segments.join(' | '))
     @interpolatedStringSelector.matches(@editor.getLastCursor().getScopeDescriptor().getScopesArray())
